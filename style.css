@@ -1,0 +1,91 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: rgb(211, 211, 211);
+}
+nav {
+    background-color: #32b4dc;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+nav h3{
+    background-color: #32b4dc;
+}
+nav a {
+    color: #fff;
+    padding: 10px;
+    background-color: #32b4dc;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #555;
+    border-radius: 50%;
+}
+
+/* body styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.btn {
+    background-color: #333;
+    border-radius: 1.5rem;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.btn:hover {
+    background-color: #555;
+}
+.destinations {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 40px;
+}
+.destination {
+    border: 1px solid gray;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    flex-basis: 30%;
+    margin-bottom: 20px;
+}
+.destination img {
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 90%;
+}
+.destination h3 {
+    font-size: 24px;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+.destination p {
+    background-color: transparent;
+    font-size: 15px;
+}
+
+/* footer styling */
+footer {
+    color: gray;
+    padding: 1px;
+    text-align: center;
+}
+
+footer p{
+    font-size: smaller;
+}
